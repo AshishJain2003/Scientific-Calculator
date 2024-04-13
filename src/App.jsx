@@ -26,7 +26,6 @@ function App() {
       case 'x^2':
         newCalculation += '**2';
         break;
-
       case '1/x':
         newCalculation += '**(-1)';
         break;
@@ -53,13 +52,13 @@ function App() {
 
   return (
     <div className="container">
-      <div className="calculator">
+      <div className="block">
         <div className='head'>
           Calculator
         </div>
         <form>
-          <div className='display'>
-            <input type='text' value={calculation} readOnly />
+          <div className='answer'>
+            <input type='text' value={calculation} readOnly/>
           </div>
           <div>
             <input type='button' value="AC" className='allClr' onClick={handleButtonClick} />

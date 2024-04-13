@@ -15,7 +15,7 @@
   margin: 10px 0 10px 0;
 }
 
-.calculator {
+.block {
   padding: 10px;
   border-radius: 20px;
   background-color: black;
@@ -40,7 +40,7 @@ form input[type="button"]:hover {
   background-color: gray;
 }
 
-form .display {
+form .answer {
   display: flex;
   justify-content: flex-end;
   margin: 5px 0 15px 0;
@@ -48,7 +48,7 @@ form .display {
   border-radius: 10px;
 }
 
-form .display input {
+form .answer input {
   text-align: right;
   flex: 1;
   font-size: 40px;
